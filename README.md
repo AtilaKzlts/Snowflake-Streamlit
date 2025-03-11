@@ -1,6 +1,11 @@
 ![image](https://github.com/AtilaKzlts/Snowflake-Streamlit/blob/main/assets/bar.png)
 
-# Snowflake-Streamlit
+
+<div align="center">
+  <h1>Snowflake-Streamlit Digital Campaign Dashboard</h1>
+ </p>
+</div>
+
  
 ## Table of Contents
 
