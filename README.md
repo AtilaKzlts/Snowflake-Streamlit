@@ -53,6 +53,8 @@ This project was developed to analyze and visualize digital campaign data. The p
 
 ## Steps
 
+![image](https://github.com/AtilaKzlts/Snowflake-Streamlit/blob/main/assets/diagram.svg)
+
 **Data Collection:**
 + The necessary campaign data was pulled directly from AWS S3 into Snowflake using custom scripts and connectors.
 + Data was regularly updated to ensure the most current campaign performance data was available for analysis.
