@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h1>Snowflake-Streamlit Digital Campaign Dashboard</h1>
+  <h1>Snowflake-Digital Campaign Dashboard</h1>
  </p>
 </div>
 
