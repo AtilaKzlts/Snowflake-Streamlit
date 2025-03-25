@@ -16,7 +16,7 @@
 
 ## Project Introduction
 
-This project was developed to analyze and visualize digital campaign data. The project is based on the analysis of data pulled from AWS S3 into the Snowflake data warehouse, and an interactive dashboard was created using Streamlit. The main goal of this project is to provide a tool that allows for faster evaluation of campaign performance through the analysis and visualization of digital campaign data. In doing so, managers can accelerate their decision-making processes and quickly access cleaner, more organized, and easily accessible data.
+This project was developed to analyze and visualize digital campaign data. The project is based on the analysis of data pulled from AWS S3 into the Snowflake data warehouse, with the data being updated every 7 days through an automated process in Snowflake. An interactive dashboard was created using Streamlit to visualize the results. The main goal of this project is to provide a tool that allows for faster evaluation of campaign performance through the analysis and visualization of digital campaign data. By doing so, managers can accelerate their decision-making processes and quickly access cleaner, more organized, and easily accessible data.
 
 ## About the Data Set
 
@@ -54,10 +54,11 @@ This project was developed to analyze and visualize digital campaign data. The p
 ## Steps
 
 ![image](https://github.com/AtilaKzlts/Snowflake-Streamlit/blob/main/assets/diagram.svg)
+[SQL Script](https://github.com/AtilaKzlts/Snowflake-Streamlit/blob/main/assets/snowflake_script.sql)
 
 **Data Collection:**
 + The necessary campaign data was pulled directly from AWS S3 into Snowflake using custom scripts and connectors.
-+ Data was regularly updated to ensure the most current campaign performance data was available for analysis.
++ Data was regularly updated every 7 days to ensure the most current campaign performance data was available for analysis.
 
 **Data Cleaning and Processing:**
 + Raw campaign data was cleaned to remove any errors, null values, or inconsistencies.
@@ -81,9 +82,9 @@ This project was developed to analyze and visualize digital campaign data. The p
 + The dashboard empowers users to explore the data by month, campaign type, and performance metric.
 + By scaling the metrics appropriately, users can easily identify correlations between campaign frequency and key financial indicators like average order value.
 
-[See Script](https://github.com/AtilaKzlts/Snowflake-Streamlit/blob/main/assets/streamlit_script.py)
 
 ---
+[Dashboard Script](https://github.com/AtilaKzlts/Snowflake-Streamlit/blob/main/assets/streamlit_script.py)
 
 ## Snapshot
 
