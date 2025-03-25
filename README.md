@@ -62,7 +62,7 @@ This project was developed to analyze and visualize digital campaign data. The p
 **Data Cleaning and Processing:**
 + Raw campaign data was cleaned to remove any errors, null values, or inconsistencies.
 + Key metrics, such as Average Order Value (AOV), Click-Through Rate (CTR), Return on Ad Spend (ROAS), and Conversion Rates, were calculated to assess campaign effectiveness.
-+ Data processing was automated using Python scripts, ensuring smooth handling and transformation of large datasets.
+
 
 **Data Storage:**
 + After processing, the cleaned and aggregated data was stored in Snowflake, allowing for scalable, cloud-based storage and easy access for analysis.
